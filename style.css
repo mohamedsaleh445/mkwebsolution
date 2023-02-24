@@ -1,7 +1,7 @@
 .body{
 
     text-align : center;
-    background-image : url("backproject.jpeg");
+    background-image : url("back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,11 +52,12 @@ margin : 5px;
 .p{
 font-size : 35px;
 text-align : left;
+color: rgb(191, 82, 151);
 }
 .p1{
 text-align : center;
 
-}
+} 
 
 .foot{
 height:10px;
@@ -118,4 +119,15 @@ background-repeat: no-repeat;
     grid-template-areas:
    "top top "
    "bottomLeft bottomRight";
-   font-color : black;
+   color : black;
+   
+}
+#probody{
+  background-image: url(backproject.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container2 a{
+  color: yellowgreen;
+  font-size: 20px;
+}
