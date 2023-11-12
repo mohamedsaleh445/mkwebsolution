@@ -48,3 +48,22 @@ var images=[
         slider.src = images[num];
     }
     
+
+function value2(){
+    scroll({ 
+    top : 970 ,
+    behavior : "smooth"
+    })
+}
+function mission(){
+    scroll({ 
+    top :  1267 ,
+    behavior : "smooth"
+    })
+}
+function vision(){
+    scroll({ 
+    top :  1478 ,
+    behavior : "smooth"
+    })
+}

@@ -77,15 +77,7 @@ header a{
     margin-top: 10px;
     cursor: pointer;
 }
-.container{
-    display: flex;
-    background-image: linear-gradient(to right ,rgb(219, 190, 190),rgb(158, 158, 218))   ;
-    align-items: center;
-    justify-content: center;
-    margin: 2px;
-    padding: 2px;
-    border: 2px solid black;
-}
+
 .container div{
     border: 1px dashed rgb(97, 97, 243);
     width: 22%;
@@ -96,11 +88,11 @@ header a{
 }
 table{
     background-color: lightgoldenrodyellow;
-    padding: 10px 0px 10px 0px;  
-    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;  
+    margin: 10px 0px 10px 10px;
     font-size: 25px;
     border: 1px double rgb(236, 236, 123);
-    width: 100%;
+    width: 98%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -238,4 +230,107 @@ input:focus{
 }
 textarea:focus{
     scale: 1.02;
+}
+
+.mi{
+    display: flex;
+
+}
+
+.mii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+}
+
+.miii{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 10%;
+    text-align: center;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.mii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 20%;
+
+
+}
+.miii2{
+    border: 2px dotted red;
+    margin: .5%;
+    padding: 4%;
+    text-align: center;
+
+    margin-left: 4%;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20%;
+
+}
+.container{
+    background-image: linear-gradient(to right ,rgb(219, 190, 190),rgb(158, 158, 218))   ;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.middlerow{
+    display: flex;
+    width: 95%;
+    margin: 2%;
+    text-decoration: double;
+    border: 1px dotted black;
+    border-radius: 20%;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.middlerow-button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: none;
+    font-size: 35px;
+    padding: 3%;
+    margin: 3%;
+    width: 25%;
+    text-decoration: double;
+    border: 1px dotted black;
+    border-radius: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.container2{
+    justify-content: center;
+    width: 95%;
+    margin: 2%;
+
+}
+.middlerow :hover{
+    cursor: pointer;
+    background-color: aqua;
+    
 }
