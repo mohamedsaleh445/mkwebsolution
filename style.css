@@ -120,23 +120,29 @@ background-repeat: no-repeat;
    "top top "
    "bottomLeft bottomRight";
    color : black;
+   background-color: aliceblue;
 }
 .container2 a{
   color: yellowgreen;
   font-size: 20px;
+  font-size: 25px;
 }
-
+.container2 h4{
+  font-size: 20px;
+}
 
 .card-container{
   display: flex;
   position: relative;
   width: 100%;
+  padding-top: 20px;
+  margin-top: 20px;
 
 }
 
 .card{
 display: inline;
-transition: 0.9s;
+transition: 0.9s; 
 }
 
 .card img{
