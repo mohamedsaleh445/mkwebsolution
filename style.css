@@ -120,14 +120,50 @@ background-repeat: no-repeat;
    "top top "
    "bottomLeft bottomRight";
    color : black;
-   
-}
-#probody{
-  background-image: url(backproject.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 .container2 a{
   color: yellowgreen;
   font-size: 20px;
+}
+
+
+.card-container{
+  display: flex;
+  position: relative;
+  width: 100%;
+
+}
+
+.card{
+display: inline;
+transition: 0.9s;
+}
+
+.card img{
+  width: 95%;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  transform: translateY(-50% , -50%);
+  margin: 0;
+  transition: 0.8s;
+
+
+}
+.card .text{
+  text-align: center;
+padding: 20px;
+}
+.card .text h3{
+padding: 0;
+margin: 0;
+
+}
+.card .text p{
+  padding: 0;
+  margin: 0;
+
+}
+.card-container .card:hover {
+  scale: 1.1;
 }
