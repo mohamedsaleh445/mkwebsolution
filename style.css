@@ -1,7 +1,7 @@
 .body{
 
     text-align : center;
-    background-image : url("back.jpg");
+    background-image : url("88s78a6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +30,9 @@
 grid-area :top;
 
 }
+h1 , p ,h3{
+  color: white;
+}
 #left{
 grid-area :bottomLeft;
 }
@@ -39,6 +42,7 @@ grid-area : bottomRight;
 .value{
 border : 2px solid blue;
 margin : 5px;
+color: white;
 
 }
 .mission{
@@ -50,7 +54,7 @@ border : 2px solid green;
 margin : 5px;
 }
 .p{
-font-size : 35px;
+font-size : 25px;
 text-align : left;
 color: rgb(249, 247, 247);
 }
@@ -171,4 +175,20 @@ margin: 0;
 }
 .card-container .card:hover {
   scale: 1.1;
+}
+.topn,
+.topn a,
+.topn span{
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 2px;
+  font-size: 25px;
+  margin: 5px;
+}
+#aaaa{
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
 }
